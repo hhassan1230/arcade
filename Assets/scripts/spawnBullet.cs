@@ -17,10 +17,11 @@ public class spawnBullet : MonoBehaviour {
 
 	}
 	void createBullet () {
-//		g = ;
+//		
 		xPosition = transform.position.x - 1.0f;
 		yPosition = transform.position.y + 0.2f;
 		Vector3 tmpPosition = new Vector3 (xPosition, yPosition, transform.position.z);
+		print (levels[0].transform);
 		Instantiate (levels[0], (tmpPosition), transform.rotation);
 	}
 }

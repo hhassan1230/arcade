@@ -21,7 +21,7 @@ public class robotMove : MonoBehaviour {
 		if (Input.GetKeyDown ("space")) {
 			playerRigidbody.velocity = new Vector2(0,0);
 			
-			Vector2 tempForce = new Vector2(0,350);
+			Vector2 tempForce = new Vector2(0,325);
 			
 			playerRigidbody.AddForce(tempForce);
 		};
