@@ -47,6 +47,9 @@
   <ItemGroup>
      <Compile Include="Assets\Spooky Woods\Example\Scripts\BackgroundParallax.cs" />
      <Compile Include="Assets\scripts\ArcadeEvent.cs" />
+     <Compile Include="Assets\scripts\BodyPart.cs" />
+     <Compile Include="Assets\scripts\Explode.cs" />
+     <Compile Include="Assets\scripts\RotateSaw.cs" />
      <Compile Include="Assets\scripts\destroyEverything.cs" />
      <Compile Include="Assets\scripts\levelGen.cs" />
      <Compile Include="Assets\scripts\obstacle.cs" />
